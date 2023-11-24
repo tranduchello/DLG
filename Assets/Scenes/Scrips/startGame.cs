@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class startGame : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    #region profile
+    private int a;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private int b;
+    #endregion
 }
