@@ -1,12 +1,12 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class startGame : MonoBehaviour
 {
     #region profile
-    private int a;
+    private string  flag;// cờ 
 
-    private int b;
+    private string NameSpace;// tên
     #endregion
 }
