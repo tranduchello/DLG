@@ -1078,6 +1078,7 @@ GameObject:
   - component: {fileID: 3050795260718767776}
   - component: {fileID: 3098894158420909561}
   - component: {fileID: 3098894158420909562}
+  - component: {fileID: 1061019290324654872}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Enemy
@@ -1165,6 +1166,29 @@ MonoBehaviour:
   health: 0
   healthBar: {fileID: 3099987907670102398}
   destroyedVersion: {fileID: 3098708128171543434}
+--- !u!114 &1061019290324654872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3098894158420909560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af87cabfa12560847a1f9d0910859a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movingTime: 0.5
+  firstMove: 0
+  bulletPrefab: {fileID: 0}
+  vitri: {fileID: 3099987907048716575}
+  bulletSpeed: 0
+  isetrandom: 0
+  isetShoot: 0
+  itemCheck: 0
+  isetfirstMoveAction: 0
+  counter: 0
+  currentState: 0
 --- !u!1 &3098904629697729928
 GameObject:
   m_ObjectHideFlags: 0
